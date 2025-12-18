@@ -21,7 +21,7 @@ void interest(int balance_amount, char ch) {
             total_amount = balance_amount + interest_amount;
         }
     }
-    else {  // Fixed Deposit Account
+    else {  
         if(balance_amount >= 100000) {
             interest_amount = balance_amount * 7.0 / 100.0;   
             total_amount = balance_amount + interest_amount;
